@@ -30,5 +30,4 @@ public class Controller {
 		LocalTime localTime = LocalTime.now();// ZoneId.of("GMT+02:00")
 		return dtf.format(localTime);
 	}
-
 }
